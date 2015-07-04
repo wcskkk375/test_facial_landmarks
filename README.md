@@ -10,7 +10,7 @@ when use it:
 python test_face_alignments.py
 
 
-#this code will read the image from test_image/1.jpg
-#modify the code as you like
+this code will read the image from test_image/1.jpg
+modify the code as you like
 
 942500342@qq.com
