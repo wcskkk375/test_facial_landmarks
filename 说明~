@@ -1,0 +1,17 @@
+本代码利用ESR算法进行人脸对齐，参考  X.Cao, Y.Wei, F.Wen, and J.Sun. Face alignment by explicit shape regression. In Proc. CVPR, 2012.
+
+本代码用到python的numpy，opencv库。
+
+使用：
+安装好numpy，opencv后，要在initializa_face.py文件的第三行配置opencv的人脸检测库的路径。
+然后在linux下cd到当前文件夹，执行		python test_face_alignments.py   。
+
+其他：
+执行文件后，会在test_image文件夹读取 1.jpg 图片，然后进行人脸对齐。出来的效果图一张含人脸的框，和绿色的点，是人脸特征点的初始定位。另一张
+有蓝色的点，是经过对齐后的点。
+
+需要改正文件读取路径在test_face_alignments.py中修改，当然也可以改成传参数的方式读取图片。
+
+失败：
+若图片中检测不到人脸，则无法进行人脸对齐。
+人脸对齐失败。
